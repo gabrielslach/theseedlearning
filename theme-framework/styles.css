@@ -1,0 +1,225 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-bottom: 50px;
+    color: #34312D;
+}
+
+.bg-green {
+    background-color: #59A662;
+}
+
+/* NAVBAR */
+.float {
+    position: absolute;
+}
+
+.nav-bg {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, transparent 100%);
+    transition: 0.1s linear;
+}
+
+.nav-bg-green {
+    background-color: #59A662;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.1s linear;
+}
+
+.zero-flex {
+    flex-grow: unset;
+}
+
+.zero-mp {
+    padding: 0;
+    margin: 0;
+}
+
+.brand-container {
+    transition: 0.1s linear;
+    height: 110px;
+    width: 110px;
+}
+
+.brand-container-sm {
+    transition: 0.1s linear;
+    height: 60px;
+    width: 60px;
+}
+
+.brand-mp {
+    padding-left: 1.5em;
+    margin-top: 0.2em;
+}
+
+.nav-item a {
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.dropdown-item {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255,255,255,0.5);
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    color: white;
+}
+
+.dropdown-item-last {
+    border-bottom-style: none;
+}
+
+.dropdown-item a:hover {
+    color: #ffda06;
+}
+
+.bg-dropdown {
+    /* #ffda0 yellow */
+    background-color: #59A662;
+    border-style: none;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: #ffda06;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+/* NAVBAR */
+/* VIDEO */
+video {
+    width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+/* VIDEO */
+/* ROW-COL */
+.mt-custom-10 {
+    margin-top: 7.5em;
+}
+.relative {
+    position: relative;
+}
+.col-content h3 {
+    font-family: 'Chilanka', cursive;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
+.col-bg {
+    position:absolute;
+    width: 100%;
+    min-height: 230%;
+    top: -100px;
+    left: -5px;
+    z-index: -1;
+}
+.col-btn {
+    width:100%;
+    background-color: #FFDA06;
+    color: white;
+    /* text-shadow: 0.05em 0.05em 0.5em #8d7800; */
+    display: inline-block; 
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 15px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col-btn:hover {
+    background-color: #face10;
+    cursor: pointer;
+}
+.btn-dropdown-content {   
+    display: block;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+    position: absolute;   
+    background-color: #ffda06;
+    background-image: url(assets/tsl-white.png);
+    background-size: cover;
+    min-width: 160px;   
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    padding: 12px 16px;   
+    z-index: 1;
+    font-size: medium;
+    color: #34312D;
+}
+.col-btn:hover .btn-dropdown-content {
+    opacity: 1;
+}
+.col-parent {
+    width: 110%;
+}
+/* ROW-COL */
+/* ACTIONS */
+.margin-top-custom {
+    margin-top: 100px;
+}
+.margin-top-custom h3 {
+    text-align: center;
+    font-family: 'Chilanka', cursive;
+    font-weight: 600;
+    color: white;
+}
+.actions-row {
+    text-align:center;
+    font-family: 'Chilanka', cursive;
+    color: #ffda06;
+}
+.actions-row h4 {
+    font-weight: 600;
+}
+@keyframes img-dance {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-1px);
+    }
+}
+.actions-col:hover img {
+    animation-name: img-dance;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+.row-top-margin {
+    margin-top: 20px;
+    font-weight: 600;
+}
+.actions-col img {
+    max-width: 70%;
+}
+/* ACTIONS */
+/* CONNECT */
+.row-connect {
+    text-align: center;
+}
+.col-connect {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col-connect:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.col-connect-br {
+    background-color: #A68759;
+}
+.col-connect-yellow {
+    background-color: #FFDA06;
+}
+.col-connect i {
+    font-size: xx-large;
+    line-height: 2em;
+    color: white;
+}
+/* CONNECT */
