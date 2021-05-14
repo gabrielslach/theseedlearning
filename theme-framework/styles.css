@@ -103,12 +103,16 @@ video {
     font-family: 'Chilanka', cursive;
     font-size: x-large;
     font-weight: 600;
+}
+.col-content {
+    min-height: 150px;
     text-align: center;
 }
 .col-bg {
     position:absolute;
     width: 100%;
-    min-height: 230%;
+    height: 120%;
+    min-height: 340px;
     top: -100px;
     left: -5px;
     z-index: -1;
