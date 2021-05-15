@@ -75,7 +75,7 @@
         <video class="elementor-video" src="assets/TSL-Video.mp4" autoplay="" loop="" controls="" muted="muted" playsinline="" controlslist="nodownload"></video>
       <!-- BANNER END -->
       <!-- INTRODUCTIONS -->
-      <div class='d-flex container'>
+      <div class='d-flex container display-on-lg'>
         <div class='row mt-custom-10 gx-5'>
           <div class='col relative'>
             <div class='col-content'>
@@ -131,23 +131,99 @@
         </div>
       </div>
       <!-- INTRODUCTIONS -->
+      <!-- INTRODUCTION MOBILE -->
+      <div id="introductionCarouselControls" class="carousel carousel-dark slide mt-custom-5 display-on-not-lg" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#introductionCarouselControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#introductionCarouselControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#introductionCarouselControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner pb-3">
+          <div class="carousel-item active">
+            <div class='carousel-content'>
+              <div class='col-content'>
+                <h3>
+                  Fill your child's week with fun learning activities!
+                </h3>
+                <p>
+                  You won't have a hard time planning your child's activities at home with the help of The Seed Learning's activity plans.
+                </p>
+              </div>
+              <img src='assets/white-col-bg.png' class="carousel-content-bg"/>
+              <div class='col-btn'>
+                What are Activity Plans?
+                <div class="btn-dropdown-content">
+                  An Activity Plan is like a recipe that will help you in preparing for your child’s assigned activities. It also provides you with enrichment questions and reminders on how to appropriately facilitate and guide your child through each step of the activity’s process.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class='carousel-content'>
+              <div class='col-content'>
+                <h3>
+                  Keep them engaged in learning through our live sessions.
+                </h3>
+                <p>
+                  Dive into the world of learning with our <b>one-on-one</b> live sessions with our teachers!
+                </p>
+            </div>
+              <img src='assets/white-col-bg.png' class="carousel-content-bg"/>
+              <div class='col-btn'>
+                What are Live Sessions?
+                <div class="btn-dropdown-content">
+                  Live sessions are the meetings scheduled with a teacher to conduct the learning session.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class='carousel-content'>
+              <div class='col-content'>
+                <h3>
+                  Socialize with new friends in our Zoommunity Time!
+                </h3>
+                <p>
+                  Get a chance to meet new friends in our group sessions with the other students and teachers.
+                </p>
+              </div>
+              <img src='assets/white-col-bg.png' class="carousel-content-bg"/>
+              <div class='col-btn'>
+                What is Zoommunity?
+                <div class="btn-dropdown-content">
+                  Zoommunity Time is a community time via Zoom where learners gather all together and have a circle time session filled with stories, singing, and movement! It also gives them a chance to interact with other kids especially now that we are all isolated in our own individual homes.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#introductionCarouselControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#introductionCarouselControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- INTRODUCTION MOBILE -->
       <!-- ACTIONS -->
       <div class='container-fluid margin-top-custom' id='actions'>
         <h3>Enroll your child in a learning program today.​</h3>
-        <div class='row actions-row row-top-margin'>
-          <div class='col actions-col'>
+        <div class='row actions-row row-top-margin gy-4'>
+          <div class='col actions-col col-12 col-md-4'>
             <h4>Toddlers</h4>
             <a href=''>
               <img src='assets/action-1.png'/>
             </a>
           </div>
-          <div class='col actions-col'>
+          <div class='col actions-col col-12 col-md-4'>
             <h4>Kinder Prep</h4>
             <a href=''>
               <img src='assets/action-2.png'/>
             </a>
           </div>
-          <div class='col actions-col'>
+          <div class='col actions-col col-12 col-md-4'>
             <h4>Grade School</h4>
               <a href=''>
                 <img src='assets/action-3.png'/>
@@ -160,9 +236,9 @@
       <div class='row'>
       <!-- CONNECT -->
       <div class='col-lg-6'>
-        <div class='container-fluid margin-top-custom' id='actions'>
+        <div class='container-fluid margin-top-custom zero-mp' id='actions'>
           <h3>Connect with us!​</h3>
-          <div class='row-connect row-top-margin'>
+          <div class='row-connect row-top-margin justify-content-center'>
             <div class='col-connect col-connect-br'>
               <i class="bi bi-facebook"></i>
             </div>
