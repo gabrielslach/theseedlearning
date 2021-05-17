@@ -1,6 +1,6 @@
 @font-face {
     font-family: bigness;
-    src: url(assets/Bigness-JEqn.ttf);
+    src: url(assets/Bigness-JEqn.ttf) format('truetype');
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -186,7 +186,7 @@ video {
 .margin-top-custom h3 {
     text-align: center;
     font-family: 'bigness', cursive;
-    letter-spacing: 0.6px;
+    letter-spacing: 2px;
     font-weight: 600;
     color: white;
 }
