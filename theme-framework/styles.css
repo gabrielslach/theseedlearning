@@ -227,6 +227,9 @@ video {
 .row-connect {
     text-align: center;
 }
+.row-connect a {
+    color: transparent;
+}
 .col-connect {
     display: inline-block;
     width: 4em;
@@ -254,6 +257,9 @@ video {
 }
 /* CONNECT */
 /* FOOTER */
+.footer {
+    padding-bottom: 1em;
+}
 .footer-form {
     background-color: rgba(255,255,255,0.1);
     padding-top: 2em;
@@ -277,9 +283,11 @@ video {
         margin-right: 0.5em;
     }
     .display-on-not-lg {
+        transition: 0.1s linear;
         display: block;
     }
     .display-on-lg {
+        transition: 0.1s linear;
         display: none !important;
     }
   }
